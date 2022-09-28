@@ -3,7 +3,8 @@
 }
 
 body{
-    background-color: rgb(213, 225, 239)
+    background-color: rgb(213, 225, 239);
+    height: 100%;
     
 }
 
@@ -11,7 +12,8 @@ body{
    display: flex;
    justify-content: center;
    align-items: center;
-   height: 1440px;
+   flex-direction: column;
+   height: 100vh;
    
     
 
